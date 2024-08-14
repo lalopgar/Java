@@ -3,18 +3,20 @@
 package Ejemplos1;
 import java.util.Scanner;
 
-public class Ejemplo19{
-    public static void main(String args[]){
+public class Ejemplo19 {
+    public static void main(String args[]) {
         Scanner teclado = new Scanner(System.in);
         System.out.print("¿Qué edad tienes?: ");
         int edad = teclado.nextInt();
 
-        if (edad >= 18 && edad <= 100){
+        if (edad >= 18 && edad <= 100) {
             System.out.print("Puedes pasar");
         } else {
             System.out.print("No puedes pasar");
         }
 
+    }
+}
 
        /* OPERADOR TERNARIO
 
