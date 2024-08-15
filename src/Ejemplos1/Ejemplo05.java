@@ -1,4 +1,4 @@
-//Pedir por teclado que se inserten dos numeros y luego imprimir el total de su multiplicacion
+//Pedir por teclado que se inserten dos números y luego imprimir el total de su multiplicación
 
 
 /*package Ejemplos1;
@@ -21,12 +21,12 @@ package Ejemplos1;
 import java.util.Scanner;
 public class Ejemplo05{
     public static void main(String args[]){
-        Scanner teclado = new Scanner(System.in);
-        System.out.print("Inserte numero1: ");
-        int numero1 = teclado.nextInt();
-        System.out.print("Inserte numero2: ");
-        int numero2 = teclado.nextInt();
+       Scanner teclado = new Scanner(System.in);
+       System.out.print("Inserte primer número:");
+       int numero1 = teclado.nextInt();
+       System.out.print("Inserte segundo número:");
+       int numero2 = teclado.nextInt();
+    System.out.println("El total de la multiplicación de ambos números es " + (numero1*numero2));
 
-        System.out.print("El total de la multiplicacion es :" + (numero1*numero2));
     }
 }

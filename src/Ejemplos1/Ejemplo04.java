@@ -17,11 +17,14 @@ public class Ejemplo04{
 package Ejemplos1;
 
 import java.util.Scanner;
+
 public class Ejemplo04{
     public static void main(String args[]){
         Scanner teclado = new Scanner(System.in);
-        System.out.print("Inserte un nombre: ");
+        System.out.print("Escribe tu nombre y pulsa Enter: ");
         String nombre = teclado.nextLine();
-        System.out.print("Tu nombre es " + nombre);
+        System.out.println("Tu nombre es " + nombre);
+
+
     }
 }

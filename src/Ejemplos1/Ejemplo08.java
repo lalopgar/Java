@@ -10,21 +10,23 @@ public class Ejemplo08{
        /* Scanner teclado = new Scanner(System.in);
         System.out.print("Alumno, inserta tu nota: ");
         double nota = teclado.nextDouble();            //se utiliza double porque la nota puede llevar decimales
-        if (nota >= 5 && nota <= 10){ //>= mayor igual que <= menos igual que
+        if (nota >= 5 && nota <= 10){ //>= mayor igual que <= menor igual que
             System.out.println("Aprobado");
         }
 
     }*/
-package Ejemplo1;
+package Ejemplos1;
+
 import java.util.Scanner;
+
 public class Ejemplo08{
     public static void main(String args[]){
-        Scanner teclado = new Scanner(System.in);
-        System.out.print("Inserte nota: ");
-        Double nota = teclado.nextDouble();
+        Scanner teclado=new Scanner (System.in);
+        System.out.print("Inserte una nota: ");
+        double nota = teclado.nextDouble();
 
-        if (nota >= 5 && nota <= 10){
-            System.out.print("Has aprobado");
-        }
+        if (nota >= 5 && nota <=10){
+            System.out.println("Aprobado");
         }
     }
+}
