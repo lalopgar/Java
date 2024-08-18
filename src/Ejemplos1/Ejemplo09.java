@@ -28,13 +28,12 @@ import java.util.Scanner;
 public class Ejemplo09{
     public static void main(String args[]){
         Scanner teclado = new Scanner(System.in);
-        System.out.print("Inserte numero: ");
-        int numero = teclado.nextInt();
-
-        if (numero >= 18 && numero <= 100){
-            System.out.print("Mayor de edad");
+        System.out.print("Inserte edad: ");
+        int edad = teclado.nextInt();
+        if (edad >= 18 && edad <=100){
+            System.out.println("Puedes pasar");
         } else {
-            System.out.print("Menor de edad");
+            System.out.println("No puedes pasar");
         }
     }
 }

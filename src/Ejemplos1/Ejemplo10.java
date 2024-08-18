@@ -1,22 +1,21 @@
-//Pedir dos numeros al usuario y ver cual es mayor o si son iguales
+/*Pedir dos números al usuario y ver cuál es mayor o si son iguales.
 
 package Ejemplos1;
 import java.util.Scanner;
-
 public class Ejemplo10{
     public static void main(String args[]){
         Scanner teclado = new Scanner(System.in);
-        System.out.print("Introduce un numero 1");
-        int numero1 = teclado.nextInt();
-        System.out.print("Introduce numero 2");
-        int numero2 = teclado.nextInt();
+        System.out.print("Escriba n1: ");
+        int n1 = teclado.nextInt();
+        System.out.print("Escriba n2: ");
+        int n2 = teclado.nextInt();
 
-        if (numero1 > numero2){
-            System.out.print("El numero 1 es mayor que numero 2");
-        } else if (numero1 < numero2){
-            System.out.print("El numero 1 es menos que el numero 2");
+        if (n1 > n2){
+            System.out.println("El primer número es mayor que el segundo número.");
+        } else if (n1 < n2){
+            System.out.println("El segundo número es mayor que el primer número");
         } else {
-            System.out.print("Ambos numeros son iguales");
+            System.out.println("Los dos números son iguales");
         }
     }
-}
+}*/

@@ -1,4 +1,5 @@
-/*Crea un programa que realice operaciones matematicas basicas suma, resta, multi y divi de dos numeros ingresados por el usuario. El usuario debe seleccionar la operacion que desea realizar*/
+/*Crea un programa que realice operaciones matemáticas básicas suma, resta, multi y divi de dos números ingresados por el usuario.
+El usuario debe seleccionar la operación que desea realizar con un carácter.
 
 package Ejemplos1;
 
@@ -25,4 +26,31 @@ public class Ejemplo13{
             System.out.print("Error");
         }
     }
+}*/
+
+package Ejemplos1;
+import java.util.Scanner;
+public class Ejemplo13{
+    public static void main(String args[]){
+        Scanner teclado = new Scanner(System.in);
+        System.out.print("Inserte número 1: ");
+        int n1 = teclado.nextInt();
+        System.out.print("Inserte número 2: ");
+        int n2 =  teclado.nextInt();
+        System.out.print("Pulse +, -, *, /: ");
+        char pulse = teclado.nextLine().charAt(0);
+
+        if (pulse == '+'){
+            System.out.print((n1+n2));
+        } else if (pulse == '-'){
+            System.out.print((n1-n2));
+        } else if (pulse == '*'){
+            System.out.print((n1*n2));
+        } else if (pulse == '/'){
+            System.out.print((n1/n2));
+        } else {
+            System.out.print("Error");
+        }
+    }
+
 }

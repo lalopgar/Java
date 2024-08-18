@@ -15,18 +15,17 @@ public class Ejemplo08{
         }
 
     }*/
+
 package Ejemplos1;
-
 import java.util.Scanner;
-
 public class Ejemplo08{
     public static void main(String args[]){
-        Scanner teclado=new Scanner (System.in);
-        System.out.print("Inserte una nota: ");
+        Scanner teclado = new Scanner(System.in);
+        System.out.print("Inserte nota: ");
         double nota = teclado.nextDouble();
-
-        if (nota >= 5 && nota <=10){
-            System.out.println("Aprobado");
+        if (nota >= 5 && nota <= 10){
+            System.out.print("Aprobado");
         }
+
     }
 }

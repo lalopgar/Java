@@ -1,4 +1,4 @@
-//Pedir la edad y decir que puede pasar si es menos de edad y si es menor de edad no puede pasar.
+/*Pedir la edad y decir que puede pasar si es menor de edad y si es menor de edad no puede pasar.
 
 package Ejemplos1;
 import java.util.Scanner;
@@ -18,7 +18,7 @@ public class Ejemplo19 {
     }
 }
 
-       /* OPERADOR TERNARIO
+         OPERADOR TERNARIO
 
          se puede poner como arriba con el if o con el operador ternario. Adrián lo pone con el if.
 
