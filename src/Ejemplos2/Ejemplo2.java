@@ -1,3 +1,9 @@
+/*CONTAR DEL 0 AL 101
+
+ */
+
+
+
 package Ejemplos2;
 public class Ejemplo2{
     public static void main(String args[]){
@@ -9,6 +15,11 @@ public class Ejemplo2{
             System.out.println(i);
             i++;
         }
+        //OTRA FORMA DE HACERLO
+        // i = 101
+
+        i = 0;
+
         do{
             System.out.println(i);
             i++;

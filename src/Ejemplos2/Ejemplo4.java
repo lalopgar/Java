@@ -1,4 +1,4 @@
-/*Escribe todas las tablas de multiplicar desde la tabla del 1 hasta la del 10.*/
+/*Escribe todas las tablas de multiplicar desde la tabla del 1 hasta la del 10.
 package Ejemplos2;
 public class Ejemplo4{
     public static void main(String args[]){
@@ -10,14 +10,25 @@ public class Ejemplo4{
             for(int j = 1; j <=10; j++){ // operacion
 
                 System.out.println(i + " * " + j + " = " + (i*j));
-
-
-
             }
 
             System.out.println();
-
         }
+    }
+}*/
 
+package Ejemplos2;
+public class Ejemplo4{
+    public static void main(String args[]){
+
+        for ( int i = 1; i <= 10; i++) {
+
+            System.out.println("TABLA DEL " + i);
+
+            for (int j = 1; j <= 10; j++){
+                System.out.println(i + " * " + j + " = " + (i*j));
+
+            }
+        }
     }
 }
